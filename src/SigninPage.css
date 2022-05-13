@@ -1,0 +1,46 @@
+.form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+label,
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+input {
+  width: 350px;
+  height: 58px;
+  border-radius: 8px;
+  border: 3px solid rgb(46, 37, 165);
+  margin-top: 30px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 20px;
+}
+button {
+  padding: 15px 60px;
+  cursor: pointer;
+  background-color: rgb(54, 54, 156);
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.signed-in {
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+}
+.signed-in span {
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  padding-top: 40px;
+  padding-right: 20px;
+  cursor: pointer;
+}

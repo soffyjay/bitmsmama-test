@@ -1,0 +1,8 @@
+.App {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: rgb(208, 211, 242);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
